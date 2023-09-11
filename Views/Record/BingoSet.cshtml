@@ -1,0 +1,19 @@
+﻿@model List<BingoViewModel>
+@{
+    ViewBag.RecordStage = "Set";
+}
+
+<div class="row">
+    <h3>The chosen Bingo's set</h3>
+</div>
+<hr />
+<div class="row">
+    <partial name="../Record/Partials/_BingoListPartial.cshtml" model="@Model" />
+</div>
+<div class="row">
+    <form asp-controller="Record" asp-action="Remove" asp-route-id="@Model[0].Id">
+        <div>
+            <button type="submit" class="btn btn-danger m-2">Delete All Set</button>
+        </div>
+    </form>
+</div>

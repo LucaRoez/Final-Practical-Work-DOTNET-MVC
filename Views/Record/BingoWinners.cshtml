@@ -1,0 +1,12 @@
+﻿@model List<BingoViewModel>
+@{
+    ViewBag.RecordStage = "All";
+}
+
+<div class="row">
+    <h2>All Bingo winners</h2>
+</div>
+<hr />
+<div class="row">
+    <partial name="../Record/Partials/_BingoListPartial.cshtml" model="@Model" />
+</div>

@@ -1,0 +1,47 @@
+﻿@model List<BingoViewModel>
+@{
+    ViewData["Page Title"] = "Start Bingo";
+    ViewData["Page Carousel Title"] = "Bingo Settings";
+    ViewData["Page Carousel Body First Paragraph"] = "First select the players number";
+    ViewData["Page Carousel Body Second Paragraph"] = "Then each one must fill all the fields following the rule of each column range. First column allow numbers from 1 to 9, second allow from 10 to 19, third from 20 to 29, and so on up to last one, from 80 to 90.";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/bingo_complete.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "Bingo Gamble";
+    ViewData["Author Carousel Body First Paragraph"] = "But here it begins to get interesting. I structure a Bootstrap table with the model list (through a partial view), where I iterate the list and each model spreads his numbers matrix within each td tag and selects the case with a switch.";
+    ViewData["Author Carousel Body Second Paragraph"] = "The '-1' case is depicting an empty square and the '0' a filling one.";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img2.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "dawn";
+}
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 text-center">
+        <h1>Welcome to Bingo Web App Service</h1>
+    </div>
+    <div class="col-4"></div>
+</div>
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+        <h4>Now each one must to choose a bingo color and fill in all the fields for their corresponding bingo.</h4>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+<div class="row">
+    <form class="form-control" asp-controller="Bingo" asp-action="Shipping" method="post">
+
+        <partial name="../Bingo/Partials/_BuildBingoPartial.cshtml" model="@Model" />
+
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2">
+                <button type="submit" class="btn btn-primary text-center">Send Bingos and Play Lottery</button>
+            </div>
+            <div class="col-5"></div>
+        </div>
+    </form>
+</div>
+
+<script>LoadPlayerColors(); ConstructBsTable();</script>

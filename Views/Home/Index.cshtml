@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Page Title"] = "Home";
+    ViewData["Page Carousel Title"] = "Welcome to the Luca E. Rodríguez Final Work for the Polo Tecnológico from Mina Clavero";
+    ViewData["Page Carousel Body First Paragraph"] = "Please, read the following instructions to understand what's this page about.";
+    ViewData["Page Carousel Body Second Paragraph"] = "";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/simbolic_casino.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "welcome to the casino";
+    ViewData["Author Carousel Body First Paragraph"] = "I started this page writting some basic razor coding with some key links.";
+    ViewData["Author Carousel Body Second Paragraph"] = "";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img1.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "begining";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Welcome to the Final Work for the institution called Polo Tecnológico from Mina Clavero, Argentina</h2>
+    <p>For now it's just a Bingo App Service, but it is builded following the SOLID principles for made it scalable, so it is capable to 
+        support new and multiple gambling apps services just changing a couple of line codes.</p>
+    <p>So for begining with a Bingo party enter in the Bingo section <a asp-controller="Home" asp-action="StartBingo">clicking here</a>, 
+        and select the number of participants, then each one must fill the his own bingo fields with a number following the set structure 
+        of the same bingo.</p>
+    <p>This is, a range of numbers allowed into each collumn, starting from 1 to 9, following from 10 to 19, and so on up to from 80 to 90.</p>
+    <p>The bingo structure have 3 rows, and it have allowed from 1 to 2 fields inside each collumn, giving a random effect to it, where you could have 
+        one or two fields of that specific range of possible numbers</p>
+    <p>Once all the bingo fields have been set up, it's allowed to send that information directly to the database, and store it <a asp-controller="Record" asp-action="BingoList">there</a> to start the game's ranking.</p>
+    <p>The first to win will be saved in the files and can be consulted in <a asp-controller="Record" asp-action="BingoWinners">our database record</a>.</p>
+</div>

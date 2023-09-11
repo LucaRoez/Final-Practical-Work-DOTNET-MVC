@@ -1,0 +1,113 @@
+﻿@model List<BingoViewModel>
+@{
+    bool there_is_a_winner = false;
+    foreach (var model in Model) { if (model.IsWinner == true) { there_is_a_winner = true; break; } }
+
+    BingoViewModel winner = new();
+    BingoViewModel last = new();
+    foreach (var model in Model) { if (model.IsWinner) { winner = model; break; } else { last = model; continue; } }
+}
+
+@if (there_is_a_winner)
+{
+    ViewData["Page Title"] = "Bingo Winner";
+    ViewData["Page Carousel Title"] = "There's a winner!'";
+    ViewData["Page Carousel Body First Paragraph"] = "The winner is the player number " + winner.PlayerNumber.ToString() + ":";
+    ViewData["Page Carousel Body Second Paragraph"] = "";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/bingo_achieve_goal.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "Bingo Successful Goal";
+    ViewData["Author Carousel Body First Paragraph"] = "And here is the winner block with the only model table structure presented that completed all the numbers within the lottery list.";
+    ViewData["Author Carousel Body Second Paragraph"] = "";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img4.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "dusk";
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+            <h2>Bingo @winner.PlayerNumber Winner</h2>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <div class="row">
+        <partial name="../Bingo/Partials/_BingoGamblePartial.cshtml" model="winner" />
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+            <h3>Current Lottery</h3>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 d-flex justify-content-center text-center" style="white-space: normal">
+            <h3>@winner.CurrentLottery</h3>
+        </div>
+        <div class="col-1"></div>
+    </div>
+}
+else
+{
+    ViewData["Page Title"] = "Bingo Gamble";
+    ViewData["Page Carousel Title"] = "Bingo Gamble";
+    ViewData["Page Carousel Body First Paragraph"] = "Now you must press the Lottery button for toss a number.";
+    ViewData["Page Carousel Body Second Paragraph"] = "So then you will going to see the draw lottery until there is a winner. I mean, the first who complete his bingo.";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/bingo_draw_lottery.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "Bingo Gamble";
+    ViewData["Author Carousel Body First Paragraph"] = "Here we got something more. The same model list table structure than before but with an extra case, this time mading with an if conditional in lieu of a switch case, wondering if the number square is matching with one in the lottery list.";
+    ViewData["Author Carousel Body Second Paragraph"] = "In this case the matched number square is painted red in its background to mark up the match, waiting one of those models complete all of his numbers to declare a winner.";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img3.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "noon";
+    Html.AntiForgeryToken();
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 text-center">
+            <h2>Here below are the chosen Bingos:</h2>
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+    @foreach (var model in Model)
+    {
+        <div class="row">
+            <partial name="../Bingo/Partials/_BingoGamblePartial.cshtml" model="model" />
+        </div>
+        <hr />
+    }
+    @if (last.CurrentLottery != "")
+    {
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4 text-center">
+                <h3>Current Lottery</h3>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col d-flex justify-content-center text-center">
+                <h3 style="white-space: normal">@last.CurrentLottery</h3>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+            <form asp-action="BingoGambling" method="post">
+                <input type="hidden" name="players" value="@Model.Count" />
+                <button type="submit" class="btn btn-danger text-center">Draw Lottery</button>
+            </form>
+        </div>
+        <div class="col-5"></div>
+    </div>
+}
+
+<script>LoadPlayerColors(); ConstructBsTable();</script>

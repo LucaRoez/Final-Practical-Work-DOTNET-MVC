@@ -1,0 +1,66 @@
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\appsettings.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.staticwebassets.runtime.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.exe
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.deps.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.runtimeconfig.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.pdb
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Humanizer.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.csproj.AssemblyReference.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.AssemblyInfoInputs.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.AssemblyInfo.cs
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.csproj.CoreCompileInputs.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.RazorAssemblyInfo.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.RazorAssemblyInfo.cs
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\scopedcss\bundle\TrabajoFinal - Bingo Web MVC Service.styles.css
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\scopedcss\projectbundle\TrabajoFinal - Bingo Web MVC Service.bundle.scp.css
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.csproj.CopyComplete
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\refint\TrabajoFinal - Bingo Web MVC Service.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.pdb
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\TrabajoFinal - Bingo Web MVC Service.genruntimeconfig.cache
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\obj\Debug\net6.0\ref\TrabajoFinal - Bingo Web MVC Service.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

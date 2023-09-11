@@ -1,0 +1,26 @@
+﻿@model BingoViewModel
+@{
+    ViewBag.RecordStage = "Single";
+}
+
+<div class="row">
+    <h3>The chosen Bingo's details</h3>
+</div>
+<hr />
+<div class="row">
+    <form asp-controller="Record" asp-action="BingoSet" asp-route-id="@Model.Id">
+        <div>
+            <button type="submit" class="btn btn-primary m-2">Come Back</button>
+        </div>
+    </form>
+</div>
+<div class="row">
+    <partial name="../Bingo/Partials/_BingoGamblePartial.cshtml" model="@Model" />
+</div>
+<div class="row">
+    <form asp-controller="Record" asp-action="Remove" asp-route-id="@Model.Id">
+        <div>
+            <button type="submit" class="btn btn-danger m-2">Delete Record</button>
+        </div>
+    </form>
+</div>

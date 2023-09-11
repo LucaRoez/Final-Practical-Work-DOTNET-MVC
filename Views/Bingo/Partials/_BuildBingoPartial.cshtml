@@ -1,0 +1,59 @@
+﻿@model List<BingoViewModel>
+
+@for (int i = 0; i < Model.Count; i++)
+{
+    <div class="container">
+        <div class=" table-responsive-lg">
+            <table class="table table-bordered" data-player-number="@Model[i].PlayerNumber">
+                <tbody>
+                    @for (int r = 1; r < 4; r++)
+                    {
+                        <tr scope="row">
+                            @for (int c = 1; c < 10; c++)
+                            {
+                                int index;
+                                switch (r)
+                                {
+                                    case 1: index = c - 1; break;
+                                    case 2: index = c + 8; break;
+                                    default: index = c + 17; break;
+                                }
+
+                                int min;
+                                int max;
+                                switch (c)
+                                {
+                                    case 1: min = 1; max = 9; break;
+                                    case 2: min = 10; max = 19; break;
+                                    case 3: min = 20; max = 29; break;
+                                    case 4: min = 30; max = 39; break;
+                                    case 5: min = 40; max = 49; break;
+                                    case 6: min = 50; max = 59; break;
+                                    case 7: min = 60; max = 69; break;
+                                    case 8: min = 70; max = 79; break;
+                                    default: min = 80; max = 90; break;
+                                }
+
+                                <td style="min-width: 1em;">
+                                    @switch (Model[i].MatrixModel[index])
+                                    {
+                                        case -1:
+                                            <div class="empty-square"></div>
+                                            ; break;
+                                        default:
+                                            <input class="form-control" type="number" asp-for="@Model[i].MatrixModel[index]" min="@min" max="@max" value="@Model[i].MatrixModel[index]" />
+                                            @Html.ValidationMessageFor(m => m[i].MatrixModel[index], "", new {@class="text-danger"})
+                                            ; break;
+                                    }
+                                    <input type="hidden" asp-for="@Model[i].MatrixModel[index]" />
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr />
+}

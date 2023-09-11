@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Page Title"] = "Start Bingo";
+    ViewData["Page Carousel Title"] = "Bingo Settings";
+    ViewData["Page Carousel Body First Paragraph"] = "First select the players number";
+    ViewData["Page Carousel Body Second Paragraph"] = "Then each one must fill all the fields following the rule of each column range. First column allow numbers from 1 to 9, second allow from 10 to 19, third from 20 to 29, and so on up to last one, from 80 to 90.";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/bingo_complete.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "Bingo Gamble";
+    ViewData["Author Carousel Body First Paragraph"] = "This is just a little of bootstrap for a simple form choosing number.";
+    ViewData["Author Carousel Body Second Paragraph"] = "The number will be a parameter that set a list with models, all with the same structure to play the gamble.";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img2.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "dawn";
+}
+<div class="row">
+    <h1>Welcome to Bingo Web App Service</h1>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h4>Please, choose the number of participants.</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <form class="form-control" asp-controller="Bingo" asp-action="FillBingos" method="post">
+            <div class="row">
+                <div class="col-8">
+                    <label for="players" class="form-label">Number of players (max. 6)</label>
+                </div>
+                <div class="col-4">
+                    <input id="players" name="players" class="form-control" type="number" max="6" min="1" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <button class="btn btn-outline-warning" type="submit">Choose number</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

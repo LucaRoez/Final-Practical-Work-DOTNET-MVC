@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TrabajoFinal___Bingo_Web_MVC_Service
+build_property.RootNamespace = TrabajoFinal___Bingo_Web_MVC_Service
+build_property.ProjectDir = C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lucae\OneDrive\Documents\My Web Sites\TrabajoFinal - Bingo Web MVC Service
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Bingo/BingoGambling.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmluZ29cQmluZ29HYW1ibGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Bingo/FillBingos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmluZ29cRmlsbEJpbmdvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Bingo/FillBingosFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmluZ29cRmlsbEJpbmdvc0ZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Bingo/Partials/_BingoGamblePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmluZ29cUGFydGlhbHNcX0JpbmdvR2FtYmxlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Bingo/Partials/_BuildBingoPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmluZ29cUGFydGlhbHNcX0J1aWxkQmluZ29QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Home/AboutMe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dE1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Home/StartBingo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGFydEJpbmdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Record/BingoDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3JkXEJpbmdvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Record/BingoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3JkXEJpbmdvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Record/BingoSet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3JkXEJpbmdvU2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Record/BingoWinners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3JkXEJpbmdvV2lubmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Record/Partials/_BingoListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3JkXFBhcnRpYWxzXF9CaW5nb0xpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucae/OneDrive/Documents/My Web Sites/TrabajoFinal - Bingo Web MVC Service/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-212kzapt0z

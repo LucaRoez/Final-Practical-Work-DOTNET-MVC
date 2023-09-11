@@ -1,0 +1,48 @@
+﻿@model BingoViewModel
+
+<div class="container">
+    <div class="table-responsive-lg">
+        <table class="table table-bordered gamble-table" data-player-number="@Model.PlayerNumber">
+            <tbody>
+                @for (int r = 1; r < 4; r++)
+                {
+                    <tr scope="row">
+                        @for (int c = 1; c < 10; c++)
+                        {
+                            int index;
+                            switch (r)
+                            {
+                                case 1: index = c - 1; break;
+                                case 2: index = c + 8; break;
+                                default: index = c + 17; break;
+                            }
+                            string num = Model.MatrixModel[index].ToString();
+
+                            <td>
+                                @if (Model.CurrentWinningNumbers.Contains(num))
+                                {
+                                    if (Model.IsWinner)
+                                    {
+                                        <div class="filled-square">@num</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="filled-square" style="background-color: red; opacity: 0.8;">@num</div>
+                                    }
+                                }
+                                else if (num == "-1")
+                                {
+                                    <div class="empty-square"></div>
+                                }
+                                else
+                                {
+                                    <div class="filled-square">@num</div>
+                                }
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+﻿@model List<BingoViewModel>
+@{
+    ViewData["Page Title"] = "Start Bingo";
+    ViewData["Page Carousel Title"] = "Bingo Settings";
+    ViewData["Page Carousel Body First Paragraph"] = "First select the players number";
+    ViewData["Page Carousel Body Second Paragraph"] = "Then each one must fill all the fields following the rule of each column range. First column allow numbers from 1 to 9, second allow from 10 to 19, third from 20 to 29, and so on up to last one, from 80 to 90.";
+    ViewData["Page Carousel Image"] = "/img/carousel-img/bingo_complete.jpeg";
+    ViewData["Page Carousel ImageAlt"] = "Bingo Gamble";
+    ViewData["Author Carousel Body First Paragraph"] = "Here I must create another page for the failed checking case, because the first page named 'FillBingos' creates a new model list and receive a int parameter with the players number, then it is sent to an action controller where it is valueted.";
+    ViewData["Author Carousel Body Second Paragraph"] = "Like in this case the validation is failed then it returns here where besides not receiving any parameter, it interacts with TempData and deserialization of json objects to process the model list.";
+    ViewData["Author Carousel Image"] = "/img/carousel-img/author-img2.jpeg";
+    ViewData["Author Carousel ImageAlt"] = "dawn";
+}
+@Html.AntiForgeryToken()
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 text-center">
+        <h1>Welcome to Bingo Web App Service</h1>
+    </div>
+    <div class="col-4"></div>
+</div>
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+        <h4>Now each one must to choose a bingo color and fill in all the fields for their corresponding bingo.</h4>
+    </div>
+    <div class="col-3"></div>
+</div>
+
+<div class="alert alert-danger d-flex justify-content-center">@ViewData["InvalidationMessage"]</div>
+
+<div class="row">
+    <form class="form-control" asp-controller="Bingo" asp-action="Shipping" method="post">
+
+        <partial name="../Bingo/Partials/_BuildBingoPartial.cshtml" model="@Model" />
+
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2">
+                <button type="submit" class="btn btn-primary text-center">Send Bingos and Play Lottery</button>
+            </div>
+            <div class="col-5"></div>
+        </div>
+    </form>
+</div>
+
+<script>LoadPlayerColors(); ConstructBsTable();</script>

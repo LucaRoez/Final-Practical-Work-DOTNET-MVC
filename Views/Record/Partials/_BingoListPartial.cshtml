@@ -1,0 +1,63 @@
+﻿@model List<BingoViewModel>
+@{
+}
+
+<div class="container">
+    <div class="table-responsive-lg">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="row">
+                    <th class="col-2">Player Number</th>
+                    <th class="col-3">Numbers</th>
+                    <th class="col-3">Loterry</th>
+                    <th class="col-2">Winning Numbers</th>
+                    <th class="col-2">Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int r = 0; r < Model.Count; r++)
+                {
+                    <tr class="row" style="white-space: normal">
+                        <td class="col-2">@Model[r].PlayerNumber</td>
+                        <td class="col-3">@Model[r].ChosenNumbers</td>
+                        <td class="col-3">@Model[r].CurrentLottery</td>
+                        <td class="col-2">
+                            Hits: @Model[r].CurrentHits
+                            @Model[r].CurrentWinningNumbers
+                        </td>
+                        <td class="col-2">
+                            @switch (ViewBag.RecordStage)
+                            {
+                                case "All":
+                                    <form asp-controller="Record" asp-action="BingoSet" asp-route-id="@Model[r].Id">
+                                        <div>
+                                            <button type="submit" class="btn btn-primary m-2">See Bingo's set</button>
+                                        </div>
+                                    </form>
+                                    <form asp-controller="Record" asp-action="BingoDetail" asp-route-id="@Model[r].Id">
+                                        <div>
+                                            <button type="submit" class="btn btn-info m-2">See Bingo detail</button>
+                                        </div>
+                                    </form>
+                                    <form asp-controller="Record" asp-action="Remove" asp-route-id="@Model[r].Id">
+                                        <div>
+                                            <button type="submit" class="btn btn-danger m-2">Delete Record</button>
+                                        </div>
+                                    </form>
+                                ;break;
+
+                                case "Set":
+                                    <form asp-controller="Record" asp-action="BingoDetail" asp-route-id="@Model[r].Id">
+                                        <div>
+                                            <button type="submit" class="btn btn-info m-2">See Bingo detail</button>
+                                        </div>
+                                    </form>
+                                ;break;
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
