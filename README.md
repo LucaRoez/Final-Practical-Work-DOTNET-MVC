@@ -4,7 +4,7 @@
 ##### The process took two years and had two learning stages. I've also learned other technologies and techniques led by other online programming courses. Because of this, I'll detached the technologies used in this project into these two classifications according to my apprenticeship source.
 
 #### Technologies and techniques learned at Polo Tecnológico :white_check_mark:
-- `DotNet` environment :heavy_check_mark:
+- `DotNet` framework :heavy_check_mark:
 - `C-Sharp` language :heavy_check_mark:
 - SQL basics :heavy_check_mark:
 - `SQL Server` language basics :heavy_check_mark:
