@@ -16,10 +16,10 @@
 - Dependencies Injection design pattern :heavy_check_mark:
 
 #### Technologies and techniques learned outside Polo Tecnológico
-- `HTML` language (specific course) :white_check_mark:
-- `CSS` language (specific course) :white_check_mark:
-- `JavaScript` language (specific course) :white_check_mark:
-- `Bootstrap` framework (specific course) :white_check_mark:
+- `HTML` language (reinforcement course) :white_check_mark:
+- `CSS` language (reinforcement course) :white_check_mark:
+- `JavaScript` language (reinforcement course) :white_check_mark:
+- `Bootstrap` framework (reinforcement course) :white_check_mark:
 - SOLID principles :heavy_check_mark:
 - Web Layout Design patterns :heavy_check_mark:
 
